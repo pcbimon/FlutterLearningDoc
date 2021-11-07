@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --baseHref=\"https://pcbimon.github.io/FlutterLearningDoc/\"",
+    "build": "ng build --prod --output-hashing=none --baseHref=\"https://pcbimon.github.io/FlutterLearningDoc/\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
