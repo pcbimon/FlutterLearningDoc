@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { MaterialModule } from 'src/material.modole';
 import { GetStartComponent } from './components/get-start/get-start.component';
+import { DartProgramingComponent } from './components/dart-programing/dart-programing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    GetStartComponent
+    GetStartComponent,
+    DartProgramingComponent
   ],
   imports: [
     BrowserModule,
